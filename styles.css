@@ -1,63 +1,41 @@
 body {
-    margin: 20px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .avatar {
-    width: 130px;
-    border-radius: 5px;
-    box-shadow: 1.5px 1.5px #44bba4;
-    
+  width: 130px;
+  border-radius: 5px;
+  box-shadow: 1.5px 1.5px #44bba4;
 }
 
 .card {
-    width: 400px;
-    margin: 0 auto;
-    padding: 20px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    text-align: center;
-    font-size:16px;
-    background: #F6F7EB;
-    color: #393E41;
-    border: 1px solid #393E41;
-    border-bottom: 7px solid #E94F37;
-    border-radius:5px;
-    
-   
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  font-size: 16px;
+  background: #f6f7eb;
+  color: #393e41;
+  border: 1px solid #393e41;
+  border-bottom: 7px solid #e94f37;
+  border-radius: 5px;
 }
-p{
-    background: #3F88C5;
-    color:#F6F7EB;
-    font-size: 18px;
-    padding:5px;
-    transition: background-color 1s ease-out 100ms;
-}
-
-p:hover{
-    background: #e94f37;
-}
-.me{
-    font-size:22px;
+p {
+  background: #3f88c5;
+  color: #f6f7eb;
+  border-radius: 5px;
+  font-size: 18px;
+  padding: 5px;
+  transition: background-color 1s ease-out 100ms;
 }
 
-
-
-/*
-Stretch goals:
-Find other ways you can personalize 
-the design of your business card, e.g.:
-- change the border(s)
-- add border radius
-- shuffle the layout
-- shadows        🤯
-- hover effects  🤯🤯
-- animations     🤯🤯🤯
-*/
-
-/*
-Final challenge:
-Download the code to your local computer and place it
-in a folder called "business-card"
-*/
+p:hover {
+  background: #e94f37;
+}
+.me {
+  font-size: 22px;
+}
